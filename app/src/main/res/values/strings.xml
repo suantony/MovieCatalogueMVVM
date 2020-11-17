@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title_activity_detail_movie_activiy">Detail Movie</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="score">Score</string>
+    <string name="overview">Overview</string>
+    <string name="overview_text">Overview</string>
+    <string name="movie">Movie</string>
+    <string name="tvshow">Tv Show</string>
+    <string name="popularity">Popularity :</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="menu_bookmark">Bookmark</string>
+    <string name="message_undo">Batalkan menghapus item sebelumnya ?</string>
+    <string name="message_ok">OK</string>
+
+</resources>
+

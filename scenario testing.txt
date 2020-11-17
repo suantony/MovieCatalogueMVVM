@@ -1,0 +1,37 @@
+Unit Test
+- DetailMovieViewModelTest
+	-Memuat Movie
+		-Memastikan data movie tidak null
+		-Memastikan data movie sesuai dengan yang diharapkan
+
+	-Memuat TvShow
+		-Memastikan data tvshow tidak null
+		-Memastikan data tvshow sesuai dengan yang diharapkan
+
+- MoviesViewModelTest
+	-Memuat Movie
+		-Memastikan data movie tidak null
+		-Memastikan jumlah data movie sesuai dengan yang diharapkan
+
+- TvShowViewModelTest
+	-Memuat TvShow
+		-Memastikan data tvshow tidak null
+		-Memastikan jumlah data tvshow sesuai dengan yang diharapkan
+
+
+
+Instrumental Test
+- Menampilkan data movie
+	-Memastikan rv_movie dalam keadaan tampil
+	-Scroll rv_movie ke posisi data terakhir
+
+- Menampilkan data detail movie 
+	-Memberikan tindakan klik pada data pertama di rv_movie
+	-Memastikan TextView untuk title tampil sesuai yang diharapkan
+	-Memastikan TextView untuk description tampil sesuai yang diharapkan
+	-Memastikan TextView untuk overview tampil sesuai yang diharapkan
+
+- Menampilkan data TvShow
+	- Klik TabLayout dengan teks TV Show
+	- Memastikan rv_tv_show dalam keadaan tampil
+	- Scroll rv_tv_show ke posisi data terakhir
